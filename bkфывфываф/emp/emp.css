@@ -1,0 +1,403 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    color: inherit;
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+a:hover  {
+    /* color: inherit; */
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #F9F6F1;
+}
+
+header{
+    background-color: #502314;
+}
+
+.headerInner
+{
+    display: flex;
+    height: 120px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu
+{
+    display: flex;
+}
+
+.menu .firstWord
+{
+    color: #FF8732;
+    display: inline;
+    border-bottom: 2px solid #FF8732;
+}
+
+.menu a{
+    font-weight: 300;
+    color: #FFF;
+    font-size: 20px;
+    margin-right: 44px;
+}
+
+.menu a
+{
+    text-decoration:#502314;
+}
+
+
+.container
+{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.containerMain
+{
+    margin: 0 auto;
+    max-width: 1165px;
+}
+
+h1{
+    color: #502314;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top:110px;
+    margin-bottom: 40px;
+}
+
+
+.empForm
+{
+    margin-top: 97px;
+    border: solid #502314 1px;
+    border-radius: 5px;
+    width: 640px;
+    height: 545px;
+}
+.empName, .empId
+{
+    display: flex;
+    align-items: center;
+    width: 450px;
+    border: 1px solid #502314;
+    border-radius: 12px;
+}
+
+.empName input::placeholder
+{
+    color: rgba(80, 35, 20, 0.43);
+}
+
+.empId input::placeholder
+{
+    color: rgba(80, 35, 20, 0.43);
+}
+
+.empName img{
+    width: 30px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.empId{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.empId img
+{
+    width: 30px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.inpEmpName, .inpEmpId
+{
+    width: 450px;
+    padding: 16px 16px 16px 16px;
+    font-size: 20px;
+}
+
+
+.addEmpBtn, .editEmpBtn, .delEmpBtn
+{
+    width: 450px;
+    margin-bottom: 24px;
+    border: 1px solid #502314;
+    text-align: inherit;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    color: #502314;
+}
+
+.addEmp img
+{
+    margin-right: 16px;
+}
+
+.delEmp img
+{
+    margin-right: 16px;
+}
+
+.editEmp img
+{
+    margin-right: 16px;
+}
+
+.aboutUser
+{
+    display: flex;
+    padding-top: 10px;
+}
+
+.aboutUser img
+{
+    width: 110px;
+    height: 110px;
+}
+.wrap
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 140px;
+    width: 600px;
+}
+
+.textBlock
+{
+    max-width: 220px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.username
+{
+    color: #502314;
+}
+
+.username{
+    font-weight: 400;
+}
+
+.empWrap
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstInputs input
+{
+    margin-top: 47px;
+}
+
+.secondInputs input, .thirdInputs input, .forthInputs input, .fifthInputs input
+{
+    margin-top: 54px;
+}
+
+
+
+.firstInputs input
+{
+    padding: 0 15px;
+    border-bottom: 1px solid black;
+}
+
+.firstInputs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.firstInputs input::placeholder
+{
+    color:rgba(80, 35, 20, 0.43);
+}
+
+.inputsContainer
+{
+    width: 600px;
+}
+
+
+.secondInputs input
+{
+    padding: 0 15px;
+    width: 130px;
+    border-bottom: 1px solid black;
+}
+
+.secondInputs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secondInputs input::placeholder
+{
+    color:rgba(80, 35, 20, 0.43);
+}
+
+
+.thirdInputs .emailInput
+{
+    padding: 0 15px;
+    width: 189px;
+    border-bottom: 1px solid black;
+}
+
+.thirdInputs .idInput
+{
+    padding: 0 15px;
+    width: 255px;
+    border-bottom: 1px solid black;
+}
+
+.thirdInputs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.thirdInputs input::placeholder
+{
+    color:rgba(80, 35, 20, 0.43);
+}
+
+
+.forthInputs input
+{
+    padding: 0 15px;
+    width: 496px;
+    border-bottom: 1px solid black;
+}
+
+.forthInputs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.forthInputs input::placeholder
+{
+    color:rgba(80, 35, 20, 0.43);
+}
+
+
+.fifthInputs input
+{
+    padding: 0 15px;
+    width: 202px;
+    border-bottom: 1px solid black;
+}
+
+.fifthInputs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.fifthInputs input::placeholder
+{
+    color:rgba(80, 35, 20, 0.43);
+}
+
+.fifthInputs p
+{
+    color:#502314;
+    border-bottom: 1px solid black;
+}
+
+.fifthInputs a
+{
+    color: #502314;
+}
+
+
+

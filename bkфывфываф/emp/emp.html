@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="emp.css">
+    <title>Сотрудники</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="headerInner">
+                <div class="headerImg"><img src="imgs/bkLogo.png" alt="#"></div>
+                <div class="headerNav">
+                    <ul class = "menu">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Меню</a></li>
+                        <li><a href="#"  class = "firstWord">Сотрудники</a></li>
+                        <li><a href="#">Заказы</a></li>
+                        <li><a href="#">Поставщики</a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </header>
+    <main>
+        <div class="containerMain">
+            <div class="empWrap">
+                <div class="empBtns">
+                    <h1>Поиск сотрудника</h1>
+                    <div class="empFinder">
+                        <div class="empName"><img src="/emp/imgs/findImg.png" alt=""><input class = "inpEmpName" type="text" name="" id="" placeholder="ФИО"></div>
+                        <div class="empId"><img src="/emp/imgs/findImg.png" alt=""><input class = "inpEmpId" type="text" name="" id="" placeholder="Идентификационный номер"></div>
+                    </div>
+                    <div class="addEmp"><button class = "addEmpBtn"><img src="/emp/imgs/addImg.png" alt="">Добавить сотрудника</button></div>
+                    <div class="delEmp"><button class = "delEmpBtn"><img src="/emp/imgs/delImg.png" alt="">Удалить сотрудника</button></div>
+                    <div class="editEmp"><button class = "editEmpBtn"><img src="/emp/imgs/editImg.png" alt="">Редактировать</button></div>
+                </div>
+                <div class="empForm">
+                    <form>
+                        <div class="aboutUser">
+                            <div class="wrap">
+                                <div class="imgBlock"><img src="imgs/avatar.png" alt="avatar"></div>
+                                <div class="textBlock">
+                                    <p class = "username">Иванов Иван Иванович</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inputsContainer">
+                            <div class="firstInputs">
+                                <input type="text" name="positionInput" id="" placeholder="Должность">
+                                <input type="text" name="positionInput" id="" placeholder="Рабочий стаж">
+                            </div>
+                            <div class="secondInputs">
+                                <input type="text" name="positionInput" id="" placeholder="Пол">
+                                <input type="text" name="positionInput" id="" placeholder="Возраст">
+                                <input type="tel" name="positionInput" id="" placeholder="Мобильный">
+                            </div>
+                            <div class="thirdInputs">
+                                <input class = "emailInput" type="email" name="positionInput" id="" placeholder="E-mail">
+                                <input class = "idInput" type="text" name="positionInput" id="" placeholder="Идентификационный номер">
+                            </div>
+                            <div class="forthInputs">
+                                <input class = "emailInput" type="email" name="positionInput" id="" placeholder="Адрес">
+                            </div>
+                            <div class="fifthInputs">
+                                <p>Сейчас:</p> <input class = "emailInput" type="email" name="positionInput" id="" placeholder="на кухне"><a href = "#">Переназначить</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
